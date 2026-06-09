@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Musical Bot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+background:#121212;
+color:white;
+font-family:Arial;
+text-align:center;
+padding-top:50px;
+@media (max-width: 600px){
+
+input{
+width:95%;
+}
+
+button{
+width:95%;
+}
+
+}
+}
+
+h1{
+color:#1DB954;
+}
+
+input{
+width:80%;
+max-width:400px;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+}
+
+button{
+padding:15px 30px;
+background:#1DB954;
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+margin-top:10px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎵 MUSICAL BOT</h1>
+
+<p>Search millions of songs instantly</p>
+
+<form action="/search" method="post">
+
+<input type="text" name="song" placeholder="🎵 Enter song name..." required>
+
+<br><br>
+
+<button type="submit">Search</button>
+
+</form>
+
+</body>
+</html>
